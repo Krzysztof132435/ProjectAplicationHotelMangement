@@ -1,0 +1,203 @@
+/* Hotel Reservation Login & Register - Modern Minimalist Style */
+
+/* Root pane styling */
+.root {
+    -fx-font-family: "Segoe UI", "Helvetica", Arial, sans-serif;
+    -fx-font-size: 12;
+}
+
+/* Main container */
+.login-container {
+    -fx-padding: 20;
+    -fx-background-color: #f5f5f5;
+}
+
+/* Header styling */
+.header-label {
+    -fx-font-size: 28;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2c3e50;
+    -fx-padding: 0 0 10 0;
+}
+
+.subtitle-label {
+    -fx-font-size: 14;
+    -fx-text-fill: #7f8c8d;
+}
+
+/* Text fields */
+.text-field {
+    -fx-padding: 12;
+    -fx-font-size: 14;
+    -fx-border-radius: 5;
+    -fx-border-color: #bdc3c7;
+    -fx-border-width: 1;
+    -fx-control-inner-background: white;
+    -fx-text-fill: #2c3e50;
+}
+
+.text-field:focused {
+    -fx-border-color: #3498db;
+    -fx-border-width: 2;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+.password-field {
+    -fx-padding: 12;
+    -fx-font-size: 14;
+    -fx-border-radius: 5;
+    -fx-border-color: #bdc3c7;
+    -fx-border-width: 1;
+    -fx-control-inner-background: white;
+    -fx-text-fill: #2c3e50;
+}
+
+.password-field:focused {
+    -fx-border-color: #3498db;
+    -fx-border-width: 2;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+/* Form box background */
+.form-box {
+    -fx-background-color: #ecf0f1;
+    -fx-padding: 30;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-spacing: 15;
+}
+
+/* Primary button (Login/Register) */
+.primary-button {
+    -fx-padding: 12;
+    -fx-font-size: 14;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-background-color: #3498db;
+    -fx-border-radius: 5;
+    -fx-cursor: hand;
+    -fx-padding: 12 30 12 30;
+}
+
+.primary-button:hover {
+    -fx-background-color: #2980b9;
+    -fx-scale-x: 1.02;
+    -fx-scale-y: 1.02;
+}
+
+.primary-button:pressed {
+    -fx-background-color: #1f618d;
+}
+
+.primary-button:disabled {
+    -fx-background-color: #95a5a6;
+    -fx-opacity: 0.6;
+}
+
+/* Toggle button (Link to register/login) */
+.toggle-button {
+    -fx-font-size: 12;
+    -fx-padding: 5;
+    -fx-background-color: transparent;
+    -fx-text-fill: #3498db;
+    -fx-border-width: 0;
+    -fx-cursor: hand;
+    -fx-underline: true;
+}
+
+.toggle-button:hover {
+    -fx-text-fill: #2980b9;
+}
+
+.toggle-button:pressed {
+    -fx-text-fill: #1f618d;
+}
+
+/* Status label */
+.status-label {
+    -fx-font-size: 12;
+    -fx-text-fill: #e74c3c;
+    -fx-padding: 10;
+    -fx-alignment: center;
+}
+
+.status-label.success {
+    -fx-text-fill: #27ae60;
+}
+
+.status-label.error {
+    -fx-text-fill: #e74c3c;
+}
+
+/* Separators and dividers */
+.separator {
+    -fx-padding: 10 0 10 0;
+}
+
+/* VBox styling for different sections */
+.header-box {
+    -fx-alignment: center;
+    -fx-padding: 0 0 30 0;
+    -fx-spacing: 10;
+}
+
+.footer-box {
+    -fx-alignment: center;
+    -fx-padding: 20 0 0 0;
+    -fx-spacing: 10;
+}
+
+/* Accessibility - Focus visible */
+.focused {
+    -fx-focus-color: #3498db;
+}
+
+/* Animations and transitions */
+.button {
+    -fx-transition: all 0.3s ease-in-out;
+}
+
+.text-field,
+.password-field {
+    -fx-transition: border-color 0.3s ease-in-out;
+}
+
+/* Responsive padding for different screen sizes */
+.main-container {
+    -fx-padding: 20;
+}
+
+@media (max-height: 500) {
+    .header-label {
+        -fx-font-size: 24;
+    }
+
+    .form-box {
+        -fx-padding: 20;
+    }
+}
+
+/* Dark mode support (optional) */
+.darkMode {
+    -fx-background-color: #2c3e50;
+}
+
+.darkMode .header-label {
+    -fx-text-fill: #ecf0f1;
+}
+
+.darkMode .text-field {
+    -fx-control-inner-background: #34495e;
+    -fx-text-fill: #ecf0f1;
+}
+
+.darkMode .password-field {
+    -fx-control-inner-background: #34495e;
+    -fx-text-fill: #ecf0f1;
+}
+
+.darkMode .form-box {
+    -fx-background-color: #34495e;
+}
