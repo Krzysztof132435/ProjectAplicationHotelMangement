@@ -201,3 +201,157 @@
 .darkMode .form-box {
     -fx-background-color: #34495e;
 }
+
+/* Client dashboard */
+.client-dashboard {
+    -fx-background-color: #f0f2f5;
+}
+
+.client-sidebar {
+    -fx-background-color: #2c3e50;
+}
+
+.sidebar-brand {
+    -fx-font-size: 22;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ecf0f1;
+}
+
+.sidebar-user {
+    -fx-font-size: 12;
+    -fx-text-fill: #bdc3c7;
+}
+
+.sidebar-nav-button {
+    -fx-alignment: center-left;
+    -fx-background-color: transparent;
+    -fx-text-fill: #ecf0f1;
+    -fx-font-size: 14;
+    -fx-padding: 12 16 12 16;
+    -fx-background-radius: 8;
+    -fx-cursor: hand;
+}
+
+.sidebar-nav-button:hover {
+    -fx-background-color: rgba(255, 255, 255, 0.08);
+}
+
+.sidebar-nav-button.active {
+    -fx-background-color: #3498db;
+    -fx-font-weight: bold;
+}
+
+.sidebar-logout-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #e74c3c;
+    -fx-border-color: #e74c3c;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-padding: 10;
+    -fx-cursor: hand;
+}
+
+.sidebar-logout-button:hover {
+    -fx-background-color: rgba(231, 76, 60, 0.15);
+}
+
+.client-panel {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 12;
+}
+
+.panel-title {
+    -fx-font-size: 20;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2c3e50;
+}
+
+.filter-box {
+    -fx-padding: 0 0 16 0;
+}
+
+.field-label {
+    -fx-font-size: 13;
+    -fx-text-fill: #7f8c8d;
+}
+
+.status-label {
+    -fx-font-size: 13;
+    -fx-text-fill: #7f8c8d;
+}
+
+.room-list-view .list-cell,
+.room-list-view .list-cell:filled:selected,
+.room-list-view .list-cell:filled:focused {
+    -fx-background-color: transparent;
+}
+
+.room-card-title,
+.room-list-view .list-cell:filled:selected .room-card-title {
+    -fx-font-size: 15;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2c3e50;
+}
+
+.room-card-details,
+.room-card-amenities,
+.room-list-view .list-cell:filled:selected .room-card-details,
+.room-list-view .list-cell:filled:selected .room-card-amenities {
+    -fx-font-size: 13;
+    -fx-text-fill: #34495e;
+}
+
+.room-card-status,
+.room-list-view .list-cell:filled:selected .room-card-status {
+    -fx-font-size: 13;
+    -fx-text-fill: #7f8c8d;
+}
+
+/* Admin dashboard uses the same palette and sidebar controls as the client. */
+.titled-pane {
+    -fx-animated: true;
+}
+
+.titled-pane > .title {
+    -fx-background-color: #2c3e50;
+    -fx-padding: 12 15 12 15;
+    -fx-cursor: hand;
+    -fx-font-size: 15;
+    -fx-font-weight: bold;
+}
+
+.titled-pane > .title > .text {
+    -fx-fill: #ecf0f1;
+}
+
+.titled-pane > .title:hover {
+    -fx-background-color: rgba(255, 255, 255, 0.08);
+}
+
+.titled-pane:expanded > .title {
+    -fx-background-color: #3498db;
+}
+
+.titled-pane > .title > .arrow-button .arrow {
+    -fx-background-color: #bdc3c7;
+}
+
+.titled-pane > .content {
+    -fx-background-color: #2c3e50;
+    -fx-border-color: transparent;
+    -fx-padding: 5 10 10 10;
+}
+
+.secondary-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #e74c3c;
+    -fx-border-color: #e74c3c;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-padding: 8 14;
+    -fx-cursor: hand;
+}
+
+.secondary-button:hover {
+    -fx-background-color: rgba(231, 76, 60, 0.15);
+}

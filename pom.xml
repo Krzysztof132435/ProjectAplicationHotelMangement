@@ -34,6 +34,11 @@
             <artifactId>postgresql</artifactId>
             <version>${postgresql.version}</version>
         </dependency>
+        <dependency>
+            <groupId>com.sun.mail</groupId>
+            <artifactId>javax.mail</artifactId>
+            <version>1.6.2</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -50,9 +55,10 @@
             <plugin>
                 <groupId>org.openjfx</groupId>
                 <artifactId>javafx-maven-plugin</artifactId>
-                <version>0.0.8</version> <configuration>
-                <mainClass>${app.main.class}</mainClass>
-            </configuration>
+                <version>0.0.8</version>
+                <configuration>
+                    <mainClass>${app.main.class}</mainClass>
+                </configuration>
             </plugin>
 
             <plugin>

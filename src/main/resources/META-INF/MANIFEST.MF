@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Main-Class: client.ui.ClientApp
+Class-Path: javafx-fxml-20-win.jar javafx-graphics-20-win.jar javafx-bas
+ e-20.jar javafx-fxml-20.jar javafx-base-20-win.jar javafx-controls-20.j
+ ar activation-1.1.jar postgresql-42.6.0.jar javax.mail-1.6.2.jar javafx
+ -controls-20-win.jar javafx-graphics-20.jar checker-qual-3.31.0.jar
+
